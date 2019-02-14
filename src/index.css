@@ -1,0 +1,47 @@
+:root {
+  --main-font-color: #000000;
+
+  --background-primary-color: #00796B;
+  --background-secondary-color: #FEC56B;
+  --board-color: #80CBC4;
+  --tile-color: #B2DFDB;
+
+  /* --background-primary-color: #004D40;
+  --background-secondary-color: #FEC56B;
+  --board-color: #009688;
+  --tile-color: #80CBC4; */
+
+  --board-border-color: black;
+
+  --menu-background-color: var(--board-color);
+  --menu-border-color: var(--board-border-color);
+  --menu-button-color: var(--tile-color);
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font: 14px/1.1 Helvetica, Sans-Serif;
+  /* background:
+    linear-gradient(
+      rgba(0, 0, 0, 0.7), 
+      rgba(0, 0, 0, 0.7)
+    ) ,url(images/background.jpg) repeat; */
+    background: linear-gradient(135deg, var(--background-secondary-color) 25%, transparent 25%), 
+  linear-gradient(225deg, var(--background-secondary-color) 25%, transparent 25%),
+  linear-gradient(315deg, var(--background-secondary-color) 25%, transparent 25%),
+  linear-gradient(45deg, var(--background-secondary-color) 25%, transparent 25%); 
+  background-color:var(--background-primary-color);
+}
+.clear {
+  clear: both;
+}
+img, a img {
+  border: none;
+}
+input {
+  outline: none;
+}

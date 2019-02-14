@@ -1,0 +1,90 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MyComponent should render correctly in "debug" mode 1`] = `
+<div
+  className="game"
+>
+  <div
+    className="boardContainer"
+  >
+    <div
+      className="board"
+    >
+      <Board
+        animationSpeed="slow"
+        changingColors={false}
+        moveTile={[Function]}
+        tilesData={
+          Array [
+            Object {
+              "currentPosition": 0,
+              "number": 0,
+            },
+            Object {
+              "currentPosition": 1,
+              "number": 1,
+            },
+            Object {
+              "currentPosition": 2,
+              "number": 2,
+            },
+            Object {
+              "currentPosition": 3,
+              "number": 3,
+            },
+            Object {
+              "currentPosition": 4,
+              "number": 4,
+            },
+            Object {
+              "currentPosition": 5,
+              "number": 5,
+            },
+            Object {
+              "currentPosition": 6,
+              "number": 6,
+            },
+            Object {
+              "currentPosition": 7,
+              "number": 7,
+            },
+            Object {
+              "currentPosition": 8,
+              "number": 8,
+            },
+            Object {
+              "currentPosition": 9,
+              "number": 9,
+            },
+            Object {
+              "currentPosition": 10,
+              "number": 10,
+            },
+            Object {
+              "currentPosition": 11,
+              "number": 11,
+            },
+            Object {
+              "currentPosition": 12,
+              "number": 12,
+            },
+            Object {
+              "currentPosition": 13,
+              "number": 13,
+            },
+            Object {
+              "currentPosition": 14,
+              "number": 14,
+            },
+          ]
+        }
+      />
+    </div>
+  </div>
+  <Menu
+    changingColorsClick={[Function]}
+    changingColorsState={false}
+    shuffleClick={[Function]}
+  />
+</div>
+`;
